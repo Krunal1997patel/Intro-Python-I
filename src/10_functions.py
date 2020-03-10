@@ -9,4 +9,11 @@ num = int(num)
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 
 # YOUR CODE HERE
+def checkNumber(num):
+    if num % 2 == 0:
+        print(f"Even!")
+    else:
+        print(f"Odd")
 
+
+checkNumber(num)
